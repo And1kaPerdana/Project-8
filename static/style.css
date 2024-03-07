@@ -1,13 +1,13 @@
 /* Light mode */
 body {
-  background-color: #d6ddec;
+  background-color: #9bdff0;
   color: #121717;
 }
 
 /* Dark mode */
 .dark-mode {
-  background-color: #121717;
-  color: #c9c9c9;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 #chat-window {
@@ -28,7 +28,7 @@ body {
   border-radius: 15px;
   display: inline-block;
   position: relative;
-  background-color: #efefef;
+  background-color: #faee6e;
   min-width: 26px;
   border-top-left-radius: 0;
   word-wrap: break-word;
@@ -42,7 +42,7 @@ body {
 
 .message-box.my-text {
   transform: rotateY(180deg);
-  background-color: #e7f9d8;
+  background-color: #faee6e;
   margin-left:150px;
 }
 
@@ -51,11 +51,11 @@ body {
 }
 
 .message-box.my-text.dark {
-  background-color: #0f4c9e;
+  background-color: #00fff2;
 }
 
 .message-box.dark {
-  background-color: #263443;
+  background-color: #2b00ff;
 }
 
 /* Input container */
